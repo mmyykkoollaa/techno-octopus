@@ -1,0 +1,210 @@
+/* Загальні стилі для всього документа */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+}
+
+/* Стилі для заголовка сайту */
+header {
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+.logo {
+    max-width: 62px;
+}
+
+/* Стилі для навігаційного меню */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Стилі для основного контенту */
+main {
+    padding: 20px;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.banner img {
+    flex: 2;
+    width: 100%;
+}
+
+.banner h1 {
+    font-size: 64px;
+    font-weight: 200;
+}
+
+.side_text {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+    flex: 1;
+}
+
+h2 {
+    font-family: "Inter", sans-serif;
+}
+
+p {
+    text-align: left;
+    margin: 10px;
+    font-size: 24px;
+}
+
+.discount,
+.title,
+.badom,
+.cost {
+    font-weight: 700;
+}
+
+.discount {
+    font-size: 12px;
+}
+
+.title {
+    font-size: 24px;
+}
+
+.badom {
+    margin: 10px;
+    background-color: #8C9BEA;
+    border-radius: 4px;
+    padding: 4px 12px;
+    color: #EDEDED;
+    max-width: 144px;
+    text-align: center;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+/* Стилі для підвалу */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Стилі для пошуку */
+.search {
+    border: 1px solid #E7E7E7;
+    border-radius: 999px;
+    height: 40px;
+    width: 540px;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-end;
+}
+
+.search-icon {
+    height: 40px;
+    width: 80px;
+    background-color: #92BFDE;
+    border-radius: 999px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Стилі для карток */
+.card,
+.card_2 {
+    border: 2px solid #EDEDED;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+    background-color: #ffffff;
+}
+
+.card {
+    width: 330px;
+    height: 194px;
+    justify-content: right;
+}
+
+.card_2 {
+    flex-direction: column;
+    justify-content: center;
+    padding: 12px;
+}
+
+.cards,
+.cards_2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+}
+
+.cards {
+    justify-content: space-around;
+}
+
+.Tablet,
+.Tablet_2 {
+    margin: 10px;
+}
+
+.Tablet {
+    width: 182px;
+    height: 116px;
+}
+
+.Tablet_2 {
+    max-width: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+}
+
+/* Стилі для кнопок */
+.card_button {
+    margin-top: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.cost {
+    font-size: 12px;
+}
+
+/* Іконки */
+.material-symbols-outlined {
+    color: black;
+    font-variation-settings:
+        'FILL'0,
+        'wght'400,
+        'GRAD'0,
+        'opsz'24;
+}
